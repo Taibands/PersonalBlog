@@ -1,0 +1,25 @@
+#blog-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 150px 600px auto auto 30px;
+  gap: 20px;
+  grid-template-areas:
+  "nav"
+  "hd"
+  "post"
+  "post-suggestions"
+  "ft";
+}
+  
+@media (min-width: 983px) {
+  #blog-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 600px auto 30px;
+    grid-template-areas:
+    "nav nav"
+    "hd post"
+    "post-suggestions post-suggestions"
+    "ft ft";
+  }
+}

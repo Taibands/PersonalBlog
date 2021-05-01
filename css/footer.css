@@ -1,0 +1,18 @@
+footer {
+    grid-area: ft;
+    height: 30px;
+    color: #222;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+  
+.fab {
+    padding: 5px;
+}
+
+.footerimg {
+    height: 22px;
+    width: 22px;
+}
+  

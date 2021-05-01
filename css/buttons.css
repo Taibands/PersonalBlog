@@ -1,0 +1,37 @@
+.btn {
+    width: 150px;
+    padding: 10px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 15px 0;
+    cursor: pointer;
+    display: inline-block;
+}
+  
+.btn-primary {
+    background-color: transparent;
+    border: 2px solid #47d1e4;
+    border-radius: 3px;
+    color: #47d1e4;
+    transition: all 0.3s;
+}
+  
+.btn-primary:hover {
+    background-color: #47d1e4;
+    border: 2px solid #47d1e4;
+    border-radius: 3px;
+    color: #fffaf0;
+    transform: scale(0.9);
+}
+  
+.btn-primary:active {
+    background-color: #47d1e4;
+    border: 2px solid #47d1e4;
+    border-radius: 3px;
+    color: #fffaf0;
+    transform: scale(0.9);
+}

@@ -1,0 +1,51 @@
+#design-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  150px auto auto auto 20px ;
+    gap: 40px;
+    grid-template-areas:
+    "nav"
+    "typo"
+    "colour"
+    "buttons"
+    "ft";
+}
+
+#design-typo{
+    grid-area: typo;
+}
+
+#design-colors{
+    text-align: center;
+    grid-area: colour;
+}
+
+#design-buttons{
+    text-align: center;
+    grid-area: buttons;
+}
+
+.dot1{
+    height: 50px;
+    width: 50px;
+    background-color: #47d1e4;
+    border-radius: 50%;
+    display: flex;
+}
+
+.dot2{
+    height: 50px;
+    width: 50px;
+    background-color: #ea6a47;
+    border-radius: 50%;
+    display: flex;
+}
+
+.ds-colors{
+    text-align: center;
+}
+
+span {
+    margin: auto;
+    display: inline-block;
+}

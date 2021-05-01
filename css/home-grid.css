@@ -1,0 +1,30 @@
+#home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(30px, auto);
+  gap: 10px;
+  grid-template-areas:
+  "nav nav"
+  "post-1 post-2"
+  "post-1 post-3"
+  "post-1 post-4"
+  "newsletter newsletter"
+  "ft ft";
+}
+
+@media (min-width: 983px) {
+  #home-grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px auto auto auto 80px 30px;
+    gap: 20px;
+    grid-template-areas:
+    "nav nav nav nav"
+    "post-1 post-1 post-2 post-2"
+    "post-1 post-1 post-3 post-3"
+    "post-4 post-4 post-4 post-4"
+    "newsletter newsletter newsletter newsletter"
+    "ft ft ft ft";
+  }
+}

@@ -1,0 +1,36 @@
+hr {
+    border-top: 1px solid #47d1e4;
+    margin: 20px;
+}
+  
+.post-suggestions {
+    grid-area: post-suggestions;
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: center;
+}
+  
+.post-suggestions h4 {
+    width: 100%;
+}
+  
+.suggestion-card {
+    width: 30%;
+    min-width: 120px;
+    height: auto;
+}
+  
+.suggestion-card h6 {
+    font-size: 1.2em;
+}
+  
+.suggestion-card-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+  

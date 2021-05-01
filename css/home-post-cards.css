@@ -1,0 +1,115 @@
+#post-1 {
+  grid-area: post-1;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(212, 212, 212, 0.3), rgba(0, 0, 0, 0.3)), url("../img/boat.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  color: #fffaf0;
+}
+  
+.post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fffaf0;
+  min-height: 160px;
+}
+  
+#post-2 {
+  grid-area: post-2;
+  height: 100%;
+  background-image: linear-gradient(rgba(212, 212, 212, 0.3), rgba(0, 0, 0, 0.3)), url("../img/placencia.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  color: #fffaf0;
+}
+  
+#post-3 {
+  grid-area: post-3;
+  height: 100%;
+  background-image: linear-gradient(rgba(212, 212, 212, 0.3), rgba(0, 0, 0, 0.3)), url("../img/altun.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  color: #fffaf0;
+}
+  
+#post-4 {
+  grid-area: post-4;
+  height: 100%;
+  background-image: linear-gradient(rgba(212, 212, 212, 0.3), rgba(0, 0, 0, 0.3)), url("../img/bluehole.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  padding: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  color: #fffaf0;
+}
+
+.text-gradient {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-width: 60%;
+  max-width: 500px;
+  padding: 10px 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 2px;
+}
+  
+.link {
+  outline: none;
+  text-decoration: none;
+  color: #fffaf0;
+}
+  
+.link:visited {
+  color: #fffaf0;
+}
+  
+.link:hover {
+  color: #47d1e4;
+}
+  
+.post-info {
+  text-align: center;
+}
+  
+@media (min-width: 600px) and (max-width: 1200px) {
+  .post h4 {
+    font-size: 1.5em;
+  }
+  
+  .post .post-info {
+    font-size: 0.8em;
+  }
+  
+  .text-gradient {
+    padding: 5px 15px;
+    margin: 5px;
+  }
+}
+  
